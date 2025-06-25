@@ -7,10 +7,10 @@ variable "bucket_name" {
 }
 
 variable "instance_type" {
-  default = "t2.micro"
+  default = "t2.medium"
 }
 
 variable "ami_id" {
   description = "Amazon Linux 2 AMI"
-  default     = "ami-04f167a56786e4b09"
+  default     = "ami-0d1b5a8c13042c939"
 }
